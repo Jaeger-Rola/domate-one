@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Domate - Donate Now!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div id="signupPage" class="page">
+      <!-- Sign-up page content -->
+      <h2>Sign Up</h2>
+      <form id="signupForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+
+    <div id="loginPage" class="page">
+      <!-- Login page content -->
+      <h2>Login</h2>
+      <form id="loginForm">
+        <label for="loginUsername">Username:</label>
+        <input type="text" id="loginUsername" required>
+        <label for="loginPassword">Password:</label>
+        <input type="password" id="loginPassword" required>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+
+    <div id="homePage" class="page">
+      <!-- Home page content -->
+      <h2>Welcome to Domate!</h2>
+      <p>Hello, <span id="loggedInUser"></span>! Start donating now.</p>
+      <button id="charityButton">View Charities</button>
+    </div>
+
+    <div id="charityPage" class="page">
+      <!-- Charity page content -->
+      <h2>Charity Name</h2>
+      <p>Charity Description</p>
+      <label for="donationAmount">Set Donation Amount:</label>
+      <input type="number" id="donationAmount" required>
+      <button id="donateButton">Donate</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

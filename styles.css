@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .page {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .page h2 {
+    margin-bottom: 10px;
+  }
+  
+  .page form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .page label {
+    margin-top: 10px;
+  }
+  
+  .page input {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .page button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .page button:hover {
+    background-color: #0056b3;
+  }
+  
+  #charityPage {
+    text-align: left;
+  }
+  
+  #loggedInUser {
+    font-weight: bold;
+  }
+  
